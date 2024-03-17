@@ -75,7 +75,7 @@ const SignupForm = () => {
   return (
     <Form {...form}>
       <div className="sm:w-420 flex-center flex-col">
-        <img src="/assets/images/logo2.svg" alt="logo" />
+        <img src="/assets/images/logo2.svg" alt="logo" className="w-48 sm:w-64 md:w-80 lg:w-96 xl:w-120" />
 
         <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">
           Create a new account
